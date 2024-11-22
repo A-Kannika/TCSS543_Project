@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MeshGenerator">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/graphGenerationCode/Mesh/MeshGenerator.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

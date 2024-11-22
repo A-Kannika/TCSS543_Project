@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Random">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/TCSS543_Project/graphGenerationCode/Random/Random.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

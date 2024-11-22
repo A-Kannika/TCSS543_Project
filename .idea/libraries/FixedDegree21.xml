@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FixedDegree21">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/graphGenerationCode/FixedDegree/FixedDegree2.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

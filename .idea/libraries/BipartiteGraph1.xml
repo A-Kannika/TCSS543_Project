@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BipartiteGraph1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/TCSS543_Project/graphGenerationCode/Bipartite/BipartiteGraph.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

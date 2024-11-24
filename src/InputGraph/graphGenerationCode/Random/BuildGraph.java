@@ -1,4 +1,4 @@
-package graphGenerationCode.Random;
+package InputGraph.graphGenerationCode.Random;
 /* Disclaimer: Might not be ready to work with your code */
 import java.io.File;
 import java.io.FileWriter;

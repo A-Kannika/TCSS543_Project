@@ -1,4 +1,4 @@
-package graphCode;/*
+package InputGraph.graphCode;/*
  * Written by Ed Hong UWT Feb. 17, 2003.
  * Modified by Donald Chinn May 14, 2003.
  * Modified by Donald Chinn December 11, 2003.

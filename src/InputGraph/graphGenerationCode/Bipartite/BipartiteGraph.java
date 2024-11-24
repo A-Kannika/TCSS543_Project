@@ -1,4 +1,4 @@
-package graphGenerationCode.Bipartite;
+package InputGraph.graphGenerationCode.Bipartite;
 
 import java.io.*;
 import java.util.*;

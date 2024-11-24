@@ -1,4 +1,4 @@
-package graphCode;
+package InputGraph.graphCode;
 
 import java.io.*;
 

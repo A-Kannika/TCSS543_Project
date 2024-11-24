@@ -1,4 +1,4 @@
-package graphCode;// Figures A.5-A.6
+package InputGraph.graphCode;// Figures A.5-A.6
 
 import java.io.*;
 import java.util.*;

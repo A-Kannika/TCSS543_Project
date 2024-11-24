@@ -1,4 +1,4 @@
-package graphGenerationCode.Mesh;/*
+package InputGraph.graphGenerationCode.Mesh;/*
  * TCSS 543 Group 2
  * Assignment: Network flow project
  * Program: Mesh Graph Generator

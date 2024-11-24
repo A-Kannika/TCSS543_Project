@@ -1,20 +1,3 @@
-/*
- * Written by Ed Hong UWT Feb. 19, 2003.
- * Modified by Donald Chinn May 14, 2003.
- * Modified by Donald Chinn December 11, 2003.
- * Modified by Donald Chinn February 28, 2004. */
-
-/**
- * Class that represents an edge in a graph.
- * An object (usually some sort of data) can be associated with the edge.
- * 
- * A label (also represented by an object (e.g., a string) can also be
- * associated with an edge.  This could be useful, for example, if you
- * need to mark an edge as being visited in some graph traversal.
- * 
- * @author edhong
- * @version 0.0
- */
 public class Edge {
     /** the first endpoint of the edge */
     private Vertex v1;
@@ -78,6 +61,10 @@ public class Edge {
      */
     public Object getName() {
         return this.name;
+    }
+    
+    public void setName(Object data) {
+        this.name=data;
     }
     
 }

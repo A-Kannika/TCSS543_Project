@@ -1,9 +1,9 @@
 public class Edge {
     /** the first endpoint of the edge */
-    private Vertex v1;
+    private Vertex vertex1;
     
     /** the second endpoint of the edge */
-    private Vertex v2;
+    private Vertex vertex2;
     
     private Object data;  // an object associated with this edge
     private Object name;  // a name associated with this edge
@@ -11,16 +11,16 @@ public class Edge {
     /**
      * Constructor that allows data and a name to be associated
      * with the edge.
-     * @param v     the first endpoint of this edge
-     * @param w     the second endpoint of this edge
+     * @param vertex1     the first endpoint of this edge
+     * @param vertex2     the second endpoint of this edge
      * @param data  data to be associated with this edge
      * @param name  a name to be associated with this edge
      */
-    public Edge (Vertex v, Vertex w, Object data, Object name) {
+    public Edge (Vertex vertex1, Vertex vertex2, Object data, Object name) {
         this.data = data;
         this.name = name;
-        this.v1 = v;
-        this.v2 = w;
+        this.vertex1 = vertex1;
+        this.vertex2 = vertex2;
     }
 
     /**
@@ -28,7 +28,7 @@ public class Edge {
      * @return  the first endpoint of this edge
      */
     public Vertex getFirstEndpoint() {
-        return this.v1;
+        return this.vertex1;
     }
 
     /**
@@ -36,7 +36,7 @@ public class Edge {
      * @return  the second endpoint of this edge
      */
     public Vertex getSecondEndpoint() {
-        return this.v2;
+        return this.vertex2;
     }
 
     /**

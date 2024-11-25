@@ -8,7 +8,7 @@ public class runProgram {
                 long startTime = System.nanoTime();
                 double maximumFlow = scalingFordFulkerson.calculateMaxFlow(graph);
                 long endTime = System.nanoTime();
-                System.out.println("Scaling Ford-Fulkerson took: " + (endTime - startTime) / 100000 + " ms");
+                System.out.println("Scaling Ford-Fulkerson Runtime: " + (endTime - startTime) / 100000 + " ms");
                 System.out.println("Scaling Ford-Fulkerson Maximum Flow: " + maximumFlow);
 
             }

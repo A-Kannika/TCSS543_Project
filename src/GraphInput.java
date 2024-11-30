@@ -35,7 +35,7 @@ public class GraphInput {
     public static SimpleGraph LoadSimpleGraph(SimpleGraph graph, String filepath) {
         // Open the file for reading using a BufferedReader.
         BufferedReader bufferedReader = InputLib.fopen(filepath);
-        System.out.println("Opened " + filepath + " for input.");
+//        System.out.println("Opened " + filepath + " for input.");
 
         // Read the first line of the file.
         String line = InputLib.getLine(bufferedReader);

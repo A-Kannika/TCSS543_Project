@@ -17,7 +17,7 @@ import java.util.Queue;
 
 public class ScalingFordFulkerson {
     private SimpleGraph graph;   // The graph representing the flow network
-    private double maxFlow;      // The computed maximum flow
+    private int maxFlow;      // The computed maximum flow
     private double delta;        // Scaling parameter (Δ)
     private int sourcePos;       // Index of the source vertex in the graph
     private int sinkPos;         // Index of the sink vertex in the graph
@@ -28,7 +28,7 @@ public class ScalingFordFulkerson {
      * @param graph The flow network represented as a SimpleGraph
      * @return The computed maximum flow
      */
-    public double calculateMaxFlow(SimpleGraph graph) {
+    public int calculateMaxFlow(SimpleGraph graph) {
         this.graph = graph;
         this.maxFlow = 0;
 

@@ -126,7 +126,7 @@ public class ScalingFordFulkerson {
                         return true;
                     }
 
-                    queue.add(next);
+                    queue.add(next); // Add the next vertex to the queue
                 }
             }
         }
@@ -193,3 +193,4 @@ public class ScalingFordFulkerson {
         return null; // Edge not found
     }
 }
+

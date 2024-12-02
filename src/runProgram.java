@@ -32,15 +32,12 @@ public class runProgram {
             // Test Pre Flow Push Algorithm
             int PFPMaxFlow = 0;
             startTime = System.nanoTime();
-            try {
-                PFPMaxFlow = PreFlowPush.runPreFlowPush(args[0]);
-            } catch (IOException e) {
-                System.err.println("File not found: " + filePath);
-            }
+            PFPMaxFlow = PreFlowPush.runPreFlowPush(graph);
             endTime = System.nanoTime();
             System.out.println("Pre-Flow Push Runtime: " + (endTime - startTime) / 100000 + " ms");
             System.out.println("Pre-Flow Push Maximum Flow: " + PFPMaxFlow);
         }
+
     }
 
 }

@@ -6,6 +6,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.util.*;
 
+@SuppressWarnings("unchecked")
 public class RandomGraph {
 	
 	private static final String NL = "\n";
@@ -13,12 +14,8 @@ public class RandomGraph {
 	/**
 	 * Entrance point for the program.
 	 * java RandomGraph v, e, m, f
-	 * @param v - the number of vertices
-	 * @param e - the number of edges leaving each node
-	 * @param min - the lower bound on the edge capacities
-	 * @param max - the upper bound on the edge capacities
-	 * @param f - path and file name for saving the graph
 	 */
+
 	public static void main(String[] args){
 		if(args.length != 5){
 			System.out.println("\nInvalid parameters!");

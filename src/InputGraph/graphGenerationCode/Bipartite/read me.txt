@@ -1,3 +1,15 @@
+Sets of the bipartite graphs:
+        n       m       maxProbability minCapacity maxCapacity  maxFlow     scenarios
+bg1     10      10      0.2             1           10          26          Small Graph with Low Density
+bg2     50      50      0.5             1           100         2286        Moderate Graph with Medium Density
+bg3     100     100     1.0             10          500         25202       Large Graph with High Density
+bg4     10      1000    0.3             5           20          127         Unbalanced Graph
+bg5     1000    1000    0.01            1           50          8376        Sparse Large Graph
+
+
+
+
+********************************************************
 g1 is a bipartite graph with:
  
 m=10

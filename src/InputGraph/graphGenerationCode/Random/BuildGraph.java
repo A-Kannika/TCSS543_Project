@@ -74,4 +74,16 @@ public class BuildGraph {
 		}
 		System.out.print("\nDone");
 	}
+
+
+		public static void main(String[] args) {
+			BuildGraph builder = new BuildGraph();
+			builder.buildGraph("rg1.txt", ".", 10, 10, 10, 1);  // Low density, 10 vertices, capacity 1-10
+			builder.buildGraph("rg2.txt", ".", 10, 30, 20, 1);  // Medium density, 10 vertices, capacity 1-20
+			builder.buildGraph("rg3.txt", ".", 10, 50, 30, 1);  // High density, 10 vertices, capacity 1-30
+			builder.buildGraph("rg4.txt", ".", 20, 10, 10, 1);  // Low density, 20 vertices, capacity 1-10
+			builder.buildGraph("rg5.txt", ".", 20, 70, 50, 1);  // High density, 20 vertices, capacity 1-50
+		}
+
+
 }

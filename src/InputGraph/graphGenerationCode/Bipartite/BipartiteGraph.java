@@ -109,7 +109,7 @@ public class BipartiteGraph
 	public static double GetReal() throws IOException 
 	{
 		String  aux = GetString();
-		Double d  = new Double(aux);
+		Double d  = Double.valueOf(aux);
 		return  d.doubleValue() ;
 	}
 }

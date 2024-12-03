@@ -38,7 +38,7 @@ public class RunMultipleInputs {
                 "InputGraph/graphGenerationCode/Random/rg5.txt"
         };
 
-        for (String filePath : inputFiles4) {
+        for (String filePath : inputFiles2) {
             System.out.println("\nRunning for file: " + filePath);
             try {
                 Process process = new ProcessBuilder(

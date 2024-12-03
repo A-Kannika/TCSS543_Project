@@ -30,9 +30,10 @@ public class runProgram {
             System.out.println("Scaling Ford-Fulkerson Maximum Flow: " + maximumFlow);
 
             // Test Pre Flow Push Algorithm
+            PreFlowPush preflow = new PreFlowPush();
             int PFPMaxFlow = 0;
             startTime = System.nanoTime();
-            PFPMaxFlow = PreFlowPush.runPreFlowPush(graph);
+            PFPMaxFlow = preflow.preflow(graph);
             endTime = System.nanoTime();
             System.out.println("Pre-Flow Push Runtime: " + (endTime - startTime) / 100000 + " ms");
             System.out.println("Pre-Flow Push Maximum Flow: " + PFPMaxFlow);

@@ -1,4 +1,4 @@
-Sets of FixedDegree Graph:
+Sets of FixedDegree Graphs:
 
         v       e       minCapacity     maxCapacity     maxFlow     scenarios
 fd1     20      10      1               10              61          Small, Dense Graph

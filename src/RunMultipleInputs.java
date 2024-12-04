@@ -29,7 +29,7 @@ public class RunMultipleInputs {
                 "InputGraph/graphGenerationCode/Mesh/mg5.txt"
         };
 
-        // Input file paths for Mesh Graph
+        // Input file paths for Random Graph
         String[] inputFiles4 = {
                 "InputGraph/graphGenerationCode/Random/rg1.txt",
                 "InputGraph/graphGenerationCode/Random/rg2.txt",
@@ -38,7 +38,7 @@ public class RunMultipleInputs {
                 "InputGraph/graphGenerationCode/Random/rg5.txt"
         };
 
-        for (String filePath : inputFiles2) {
+        for (String filePath : inputFiles4) {
             System.out.println("\nRunning for file: " + filePath);
             try {
                 Process process = new ProcessBuilder(

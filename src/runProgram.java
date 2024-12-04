@@ -1,5 +1,15 @@
+/**
+ * runProgram.java
+ * Integrate all algorithms to produce the output
+ * TCSS 543A: Advanced Algorithms --> Empirical study project on network flow
+ * Group A:
+ *      Kannika Armstrong
+ *      Abinava Bharathi Babu
+ *      Aqueno Amalraj
+ *      Thanvi yadav Sirla
+ */
+
 import java.io.FileNotFoundException;
-import java.io.IOException;
 
 public class runProgram {
     public static void main(String[] args) {

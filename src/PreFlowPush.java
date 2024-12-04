@@ -369,7 +369,7 @@ public class PreFlowPush {
 ////    }
 ////
 ////    public static void main(String[] args) throws IOException {
-////        String filepath = "src/InputGraph/graphGenerationCode/Bipartite/g1.txt"; // Update with your actual file path
+////        String filepath = "src/InputGraph/graphGenerationCode/Bipartite/bg1.txt"; // Update with your actual file path
 ////        int maxFlow = runPreFlowPush(filepath);
 ////        System.out.println("Maximum flow is " + maxFlow);
 ////    }
